@@ -56,9 +56,27 @@ public class InterView {
     public void $07(){
         /**
          * Vector 与ArrayList 区别
-         * Vector 线程安全
-         * ArrayList 不加锁  效率快
+         * Vector 线程安全  扩容是成倍增长  所以它被用的比较少
+         * ArrayList 不加锁  效率快 增长是1.5倍
          *
+         */
+    }
+
+    public void $08(){
+        /**
+         * 枚举
+         * 更强的类型约束
+         * 常用方法
+         * name()
+         * ordinal()
+         * valueOf()
+         * 怎么扩展
+         * 自定义属性
+         * 自定义方法
+         * 自定义构造函数
+         * 它的集合类
+         * EnumSet
+         * EnumMap
          */
     }
 }
